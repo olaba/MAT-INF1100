@@ -94,7 +94,7 @@ feil1 = feil2 = 0.0
 for i in range(N):
     x = random(); y = random(); z = random()
     res1 = x*(y + z)
-    res2 = x*y + y*z
+    res2 = x*y + x*z
     
     if res1 != res2:
         antfeil += 1
